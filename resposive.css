@@ -47,8 +47,26 @@
     .online-games-description{
         font-size: 15px;
     }
-        
-
+    .Play-instantly{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .play-description-title{
+        font-size: 30px;
+    }
+    .play-description{
+        text-align: center;
+    }  
+    .play-description{
+        width: 100%;
+    }
+    .play-images{
+        width: 70%;
+        margin-top: 0px;
+    }
+    .games-photos{
+        padding-bottom: 20px;
+    }
 }
 
 

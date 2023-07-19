@@ -142,6 +142,7 @@ nav{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 30px;
+
 }
 .online-games-title{
     color: #0B0223;
@@ -164,6 +165,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 5px;
+    padding-bottom: 80px;
 }
 .box{
     width: 250px;
@@ -186,3 +188,57 @@ nav{
 
 
 /* online games styles end here */
+
+/* play Instantly styles start here */
+.Play-instantly{
+    display: flex;
+    margin-bottom: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 600px;
+    align-items: center;
+    padding-left: 70px;
+    background-color: #FFF;
+}
+.play-description{
+    width: 50%;
+    text-align: end;
+}
+.play-description-title{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.play-description-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-description-text{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.play-images{
+    margin-top: 70px;
+    margin-right: 70px;
+    margin-left: 40px;
+    width: 50%;
+}
+.play-main-img{
+    width: 80%;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+.position-img{
+    width: 150px;
+    position: relative;
+    bottom: 120px;
+
+}
+
+
+/* play Instantly styles end here */
