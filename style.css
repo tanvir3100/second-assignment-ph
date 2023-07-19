@@ -6,8 +6,13 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); 
+}
+.nav-container{
     max-width: 1440px;
-    height: 80px;
+    min-height: 80px;
+    margin: 0 auto;
     display: flex;
     justify-content:space-around;
     background: #FFF;
@@ -65,5 +70,69 @@ nav{
 }
 .div-icon-youtube{
     color: red;
+}
+/* main style start here */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 100vh;
+    gap: 10px;
+}
+.banner-description{
+    width: 50%;
+    height: 360px;
+    justify-content: center;
+    background-image: url(./images/Group\ 14.png);
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.play{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;;
+    text-transform: uppercase;
+}
+.goat{
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.banner-text{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.btn-item{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.btn-primary button{
+    padding: 15px 35px;
+    gap: 10px;
+    border: 0px;
+    border-radius: 48px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.btn-blue button{
+    padding: 15px 35px;
+    gap: 10px;
+    border: 0px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.banner-photos{
+    width: 50%;
+}
+.banner-img img{
+    width: 500px;
 }
 
