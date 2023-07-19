@@ -73,21 +73,19 @@ nav{
 }
 /* main style start here */
 .banner{
+    border: 2px solid skyblue;
+    min-height: 700px;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1440px;
-    height: 100vh;
-    gap: 10px;
 }
 .banner-description{
+    border: 2px solid red;
     width: 50%;
-    height: 360px;
-    justify-content: center;
     background-image: url(./images/Group\ 14.png);
-    background-size: cover;
-    padding-top: 200px;
-    padding-left: 150px;
+    background-size:100%;
+    padding-top: 250px;
+    padding-left: 90px; 
 }
 .play{
     color: #0B0223;
@@ -108,7 +106,6 @@ nav{
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
-
 }
 .btn-item{
     padding-top: 10px;
@@ -130,9 +127,10 @@ nav{
     background: #4EC5F7;
 }
 .banner-photos{
-    width: 50%;
-}
-.banner-img img{
-    width: 500px;
-}
+    border: 2px solid black;
+    width:50%;
 
+}
+.banner-photos img{
+    width: 100%;
+}
