@@ -282,29 +282,84 @@ nav{
 }
 
 
-/* button-box styles start here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* button-box styles end here */
+
+/* footer section start here */
+footer{
+    background: #0B0223;
+    max-width: 1440px;
+    height: 400px;
+}
+.footer-section{
+
+}
+.footer-logo-section{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700; 
+}
+.footer-span{
+    color: #FF42A5;
+}
+.our-story-section{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.footer-text-partA{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.icon-section{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+}
+.policy-partB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.60);
+}
+.copy-text{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+/* footer section end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

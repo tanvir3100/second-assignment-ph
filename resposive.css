@@ -78,6 +78,16 @@
     .box-image img{
         width: 20px;
     }
+    .footer-text-partA{
+        gap: 50px;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .policy-partB{
+        gap: 72px;
+        row-gap: 20px;
+        justify-content: center;
+    }
 }
 
 
