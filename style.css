@@ -73,24 +73,22 @@ nav{
 }
 /* main style start here */
 .banner{
-    border: 2px solid skyblue;
-    min-height: 700px;
-    max-width: 1440px;
+    min-height: 400px;
+    max-width: 1024px;
     margin: 0 auto;
     display: flex;
 }
 .banner-description{
-    border: 2px solid red;
     width: 50%;
     background-image: url(./images/Group\ 14.png);
     background-size:100%;
-    padding-top: 250px;
+    padding-top: 100px;
     padding-left: 90px; 
 }
 .play{
     color: #0B0223;
     font-size: 30px;
-    font-weight: 600;;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .goat{
@@ -127,9 +125,7 @@ nav{
     background: #4EC5F7;
 }
 .banner-photos{
-    border: 2px solid black;
     width:50%;
-
 }
 .banner-photos img{
     width: 100%;
