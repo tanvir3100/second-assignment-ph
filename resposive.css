@@ -67,6 +67,17 @@
     .games-photos{
         padding-bottom: 20px;
     }
+    .button-box{
+        border-radius: 50px;
+        width: 100px;
+        height: 30px;
+    }
+    .box-button-text{
+        font-size: 10px;
+    }
+    .box-image img{
+        width: 20px;
+    }
 }
 
 
