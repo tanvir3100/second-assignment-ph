@@ -1,0 +1,40 @@
+/* media screen style start here */
+/* Mobile devises */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .right-side{
+        flex-direction: column;
+
+    }
+    .menu-list ul{
+        flex-direction: column;
+    }
+}
+
+
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .right-side{
+        flex-direction: column;
+
+    }
+    .menu-list ul{
+        flex-direction: column;
+    }
+}

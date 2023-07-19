@@ -6,7 +6,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 nav{
-    width: 1330px;
+    max-width: 1440px;
     height: 80px;
     display: flex;
     justify-content:space-around;
@@ -25,6 +25,14 @@ nav{
     color: #3C354F;
     font-size: 16px;
     font-weight: 400;
+}
+.g-span{
+    color: #FF42A5;
+}
+.header-title{
+    color: #0B0223;
+    font-size: 25px;
+    font-weight: 700;
 }
 .menu-list ul{
     list-style: none;
@@ -59,21 +67,3 @@ nav{
     color: red;
 }
 
-/* media screen style start here */
-/* Mobile devise style */
-@media screen and (max-width: 756px) {
-    nav{
-        padding: 20px;
-        flex-direction: column;
-        width: 90%;
-        height: 100%;
-        align-items: center;
-    }
-    .right-side{
-        flex-direction: column;
-
-    }
-    .menu-list ul{
-        flex-direction: column;
-    }
-}
