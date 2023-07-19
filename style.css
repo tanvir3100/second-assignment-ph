@@ -72,6 +72,8 @@ nav{
     color: red;
 }
 /* main style start here */
+
+/* banner section start here */
 .banner{
     min-height: 400px;
     max-width: 1024px;
@@ -130,3 +132,57 @@ nav{
 .banner-photos img{
     width: 100%;
 }
+
+/* banner section end here */
+
+/* online games styles start here */
+
+
+.online-games{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.online-games-title{
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.games-photos{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.box{
+    width: 250px;
+    height: 350px;
+    align-items: center;
+}
+.box-img{
+    width: 246px;
+    height: 300px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.photo-title{
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* online games styles end here */
