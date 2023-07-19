@@ -5,3 +5,44 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+nav{
+    width: 1330px;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-side{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.menu-list ul{
+    list-style: none;
+    display: flex;  
+}
+.menu-list ul li{
+    padding: 15px;
+}
+.menu-list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.div-icon{
+    width: 159px;
+    height: 33px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+}
+.div-icon-img{
+    display: flex;
+    gap: 10px;
+}
